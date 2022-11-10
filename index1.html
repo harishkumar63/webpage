@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>ARTIFICIAL INTELLIGENCE</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="banner">
+         <nav id="sideNav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">PC</a></li>
+                <li><a href="#">ASSISTANT</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul> 
+        </nav>
+        <img src="menu.png" id="menuBtn">
+        <script>
+            var menuBtn = document.getElementById("menuBtn");
+            var sideNav = document.getElementById("sideNav");
+          
+            sideNav.style.right = "-250px";
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+        </script>
+        <div class="content">
+            <h1>ARTIFICIAL INTELLIGENCE</h1>
+            <br>
+            <p1>Machines that mimic human intelligence to perform tasks and can iteractively improve themselves <br>based on the information they collect</p1>
+            <div>
+            <br>
+            <button type="button"><span></span>GET STARTED</button>
+            <button type="button"><span></span>VIEW MORE</button>
+            </div>
+        
+        </div>
+        
+        </div> 
+   
+</body>    
+</html>
